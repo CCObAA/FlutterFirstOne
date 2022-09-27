@@ -14,14 +14,14 @@ class ThirdWN extends StatelessWidget {
             child: Stack(
             alignment: Alignment.bottomCenter,
             children: [
-              Image.asset("lib/picture/ThirdWindow/one.png"),
-              Image.asset("lib/picture/ThirdWindow/two.png", width: 235,),
+              Image.asset("assets/picture/ThirdWindow/one.png"),
+              Image.asset("assets/picture/ThirdWindow/two.png", width: 235,),
               Padding(
                 padding: const EdgeInsets.fromLTRB(0, 0, 0, 10),
                 child: ElevatedButton(
                 onPressed: (){},
                 style: ElevatedButton.styleFrom(shape: const CircleBorder(), minimumSize: const Size(80, 80), primary: const Color.fromRGBO(254, 122, 21, 1), side: const BorderSide(width: 10.0, color: Color.fromRGBO(250, 246, 245, 1)), shadowColor: Colors.transparent),
-                 child: Image.asset("lib/picture/ThirdWindow/third.png", width: 10, height: 10)),
+                 child: Image.asset("assets/picture/ThirdWindow/third.png", width: 10, height: 10)),
               ),  
             ],
           ),
@@ -45,8 +45,8 @@ class ThirdWN extends StatelessWidget {
             child: Stack(
               alignment: Alignment.bottomCenter,
               children: [
-                Image.asset("lib/picture/ThirdWindow/Rectangle1.png", alignment: Alignment.topCenter, width: 220),
-                Image.asset("lib/picture/ThirdWindow/Rectangle2.png", alignment: Alignment.topCenter, width: 220),
+                Image.asset("assets/picture/ThirdWindow/Rectangle1.png", alignment: Alignment.topCenter, width: 220),
+                Image.asset("assets/picture/ThirdWindow/Rectangle2.png", alignment: Alignment.topCenter, width: 220),
               Container(
                 margin: const EdgeInsets.fromLTRB(50, 0, 0, 0),
                 child: Column(
@@ -55,7 +55,7 @@ class ThirdWN extends StatelessWidget {
                 children: [
                   Container(
                     alignment: Alignment.topCenter,
-                    child: Image.asset("lib/picture/ThirdWindow/FirstRow.png", width: 60),
+                    child: Image.asset("assets/picture/ThirdWindow/FirstRow.png", width: 60),
                   ),
                   Container(
                     margin: const EdgeInsets.fromLTRB(10, 0, 0, 0),
@@ -69,14 +69,14 @@ class ThirdWN extends StatelessWidget {
                 children: [
                   Container(
                     alignment: Alignment.topCenter,
-                    child: Image.asset("lib/picture/ThirdWindow/TwoRow.png", width: 100),
+                    child: Image.asset("assets/picture/ThirdWindow/TwoRow.png", width: 100),
                   ),
                   Container(
                     margin: const EdgeInsets.fromLTRB(65, 0, 0, 0),
                     child: ElevatedButton(
                       onPressed: (){},
                       style: ElevatedButton.styleFrom(primary: Colors.transparent, side: const BorderSide(width: 1.0, color: Colors.transparent), shadowColor: Colors.transparent),
-                      child: Image.asset("lib/picture/ThirdWindow/TwoRow(2).png", width: 15),
+                      child: Image.asset("assets/picture/ThirdWindow/TwoRow(2).png", width: 15),
                     ),
                   )
                 ],
@@ -88,14 +88,14 @@ class ThirdWN extends StatelessWidget {
                   children: [
                     Container(
                       alignment: Alignment.topCenter,
-                      child: Image.asset("lib/picture/ThirdWindow/ThirdRow.png", width: 100),
+                      child: Image.asset("assets/picture/ThirdWindow/ThirdRow.png", width: 100),
                     ),
                     Container(
                       margin: const EdgeInsets.fromLTRB(40, 0, 0, 0),
                       child: ElevatedButton(
                         onPressed: (){},
                         style: ElevatedButton.styleFrom(primary: Colors.transparent, side: const BorderSide(width: 1.0, color: Colors.transparent), shadowColor: Colors.transparent),
-                        child: Image.asset("lib/picture/ThirdWindow/ThirdRow(2).png", width: 40),
+                        child: Image.asset("assets/picture/ThirdWindow/ThirdRow(2).png", width: 40),
                       ),
                     )
                   ],
@@ -119,7 +119,7 @@ class ThirdWN extends StatelessWidget {
                     children: [
                       Container(
                         alignment: Alignment.center,
-                        child: Image.asset("lib/picture/ThirdWindow/Four(1).png", width: 200,),
+                        child: Image.asset("assets/picture/ThirdWindow/Four(1).png", width: 200,),
                       ),
                       Container(
                         alignment: Alignment.center,
@@ -131,7 +131,7 @@ class ThirdWN extends StatelessWidget {
                       child: ElevatedButton(
                         onPressed: (){},
                         style: ElevatedButton.styleFrom(primary: Colors.transparent, side: const BorderSide(width: 1.0, color: Colors.transparent), shadowColor: Colors.transparent),
-                        child: Image.asset("lib/picture/ThirdWindow/Four(2).png", width: 30),
+                        child: Image.asset("assets/picture/ThirdWindow/Four(2).png", width: 30),
                       ),),
                     ],
                   ),

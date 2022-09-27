@@ -53,7 +53,7 @@ class FirstWN extends StatelessWidget {
 
           alignment: Alignment.center,
 
-          child: Image.asset("lib/picture/FirstWindow/firstwindow(1).png", width: 350, height: 250,),
+          child: Image.asset("assets/picture/FirstWindow/firstwindow(1).png", width: 350, height: 250,),
         ),
       ],
 

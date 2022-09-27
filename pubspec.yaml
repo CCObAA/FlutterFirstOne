@@ -59,23 +59,23 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib/picture/FirstWindow/firstwindow(1).png
-    - lib/picture/SecondWindow/Firs.png
-    - lib/picture/SecondWindow/two.png
-    - lib/picture/SecondWindow/three.png
-    - lib/picture/SecondWindow/Four.png
-    - lib/picture/ThirdWindow/one.png
-    - lib/picture/ThirdWindow/two.png
-    - lib/picture/ThirdWindow/third.png
-    - lib/picture/ThirdWindow/Rectangle1.png
-    - lib/picture/ThirdWindow/Rectangle2.png
-    - lib/picture/ThirdWindow/FirstRow.png
-    - lib/picture/ThirdWindow/TwoRow.png
-    - lib/picture/ThirdWindow/TwoRow(2).png
-    - lib/picture/ThirdWindow/ThirdRow.png
-    - lib/picture/ThirdWindow/ThirdRow(2).png
-    - lib/picture/ThirdWindow/Four(1).png
-    - lib/picture/ThirdWindow/Four(2).png
+    - assets/picture/FirstWindow/firstwindow(1).png
+    - assets/picture/SecondWindow/Firs.png
+    - assets/picture/SecondWindow/two.png
+    - assets/picture/SecondWindow/three.png
+    - assets/picture/SecondWindow/Four.png
+    - assets/picture/ThirdWindow/one.png
+    - assets/picture/ThirdWindow/two.png
+    - assets/picture/ThirdWindow/third.png
+    - assets/picture/ThirdWindow/Rectangle1.png
+    - assets/picture/ThirdWindow/Rectangle2.png
+    - assets/picture/ThirdWindow/FirstRow.png
+    - assets/picture/ThirdWindow/TwoRow.png
+    - assets/picture/ThirdWindow/TwoRow(2).png
+    - assets/picture/ThirdWindow/ThirdRow.png
+    - assets/picture/ThirdWindow/ThirdRow(2).png
+    - assets/picture/ThirdWindow/Four(1).png
+    - assets/picture/ThirdWindow/Four(2).png
   
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

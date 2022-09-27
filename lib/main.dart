@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project1/thirdwindow.dart';
+import 'package:project1/Welcome.dart';
+
 
 void main() {
   runApp(const PR1());
@@ -25,7 +26,7 @@ class PR1 extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const ThirdWN(),
+      home: const FirstWN(),
     );
   }
 }

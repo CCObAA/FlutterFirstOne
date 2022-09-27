@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ThirdWN extends StatelessWidget {
-  const ThirdWN({Key? key}) : super(key: key);
+class iPhone13mini extends StatelessWidget {
+  const iPhone13mini({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

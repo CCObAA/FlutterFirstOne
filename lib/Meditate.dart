@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SecondWN extends StatelessWidget {
-  const SecondWN({Key? key}) : super(key: key);
+class Meditate extends StatelessWidget {
+  const Meditate({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -1,19 +1,16 @@
-# Практическая работа №1
+# flutter_application_1
 
 A new Flutter project.
 
-## Работа с версткой
+## Getting Started
 
-Ход работы:
+This project is a starting point for a Flutter application.
 
-Макеты которые необходимо сверстать
+A few resources to get you started if this is your first Flutter project:
 
-<img src="lib\picture\ReadMe\Screenshot_1.png">
-Был сделан фон с помощью backgroundColor так же здесь для текста задавались цвета и размер шрифта Text("medinow", style: TextStyle(fontSize: 30, color: Colors.white)). Использовались кнопки ElevatedButton для которых задавались такие стили или похожие style: ElevatedButton.styleFrom(shape: StadiumBorder(), minimumSize: Size(269, 50), primary: Colors.white). Для перемещения, объектов которые не перемещаются при помощи margin или padding для начала оборачивали эти объекты в Container и уже потом использовали margin или padding. Для добавления картинок использовались Image.asset("lib/picture/FirstWindow/firstwindow(1).png", width: 350, height: 250,), а картинки мы брали из папки в проекте и так же добавляли в pubspec.yaml в assets наши адреса до картинок.
-В следующих макетах использовалось все то же что и в первом, во втором и третьем макете использовались еще Column и row более часто, а также очень часто использовался Stack для наложения объектов друг на друга.
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-<img src="lib\picture\ReadMe\Screenshot_2.png">
-<img src="lib\picture\ReadMe\Screenshot_3.png">
-<img src="lib\picture\ReadMe\Screenshot_4.png">
-
-В итоге все вышло, но конечно не супер)
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

@@ -1,4 +1,4 @@
-name: project1
+name: flutter_application_1
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -58,25 +58,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/picture/FirstWindow/firstwindow(1).png
-    - assets/picture/SecondWindow/Firs.png
-    - assets/picture/SecondWindow/two.png
-    - assets/picture/SecondWindow/three.png
-    - assets/picture/SecondWindow/Four.png
-    - assets/picture/ThirdWindow/one.png
-    - assets/picture/ThirdWindow/two.png
-    - assets/picture/ThirdWindow/third.png
-    - assets/picture/ThirdWindow/Rectangle1.png
-    - assets/picture/ThirdWindow/Rectangle2.png
-    - assets/picture/ThirdWindow/FirstRow.png
-    - assets/picture/ThirdWindow/TwoRow.png
-    - assets/picture/ThirdWindow/TwoRow(2).png
-    - assets/picture/ThirdWindow/ThirdRow.png
-    - assets/picture/ThirdWindow/ThirdRow(2).png
-    - assets/picture/ThirdWindow/Four(1).png
-    - assets/picture/ThirdWindow/Four(2).png
-  
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

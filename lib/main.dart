@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:project1/Welcome.dart';
-import 'package:project1/iPhone%2013%20mini%20-%2018.dart';
-
 
 void main() {
-  runApp(const PR1());
+  runApp(const MyApp());
 }
 
-class PR1 extends StatelessWidget {
-  const PR1({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -27,7 +24,7 @@ class PR1 extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const iPhone13mini(),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }

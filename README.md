@@ -1,16 +1,30 @@
 # flutter_application_1
 
-A new Flutter project.
+Для работы с файлами и БД необходимо в файле pubspec подключить следующие библиотеки:
 
-## Getting Started
+фото
 
-This project is a starting point for a Flutter application.
+В рамках практической работы необходимо реализовать два класса которые отвечает за базу данных. В классе DataBaseRequest содержатся sql запросы (создания таблиц, удаления и т.п.).
 
-A few resources to get you started if this is your first Flutter project:
+фото
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Класс DataBaseHelper хранит в себе самые основные функции для работы с БД, такие как: инициализация базы данных для всех платформ, создание таблиц, обновление таблиц, заполнение таблиц данными, удаление базы данных.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+фото
+
+Инициализация и удаление БД на смартфонах отличается от других ОС.
+
+фото
+
+Также в рамках практической работы необходимы реализовать таблицы для предметной области "Магазин мебели". Для реализации таблиц будет строиться сущностях и моделях.
+Entity файл:
+
+фото
+
+Модель:
+
+фото
+
+фото
+
+Вывод: удалось сделать заготовку, в которую входят: реализация класса, отвечающего за базу данных, реализация функций для взаимодействия с БД, реализация таблиц предметной области для будущего приложения магазина мебели.

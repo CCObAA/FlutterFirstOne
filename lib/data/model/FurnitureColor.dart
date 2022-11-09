@@ -10,7 +10,7 @@ class FurnitureColor extends FurnitureColorEntity{
 FurnitureColor({required this.id, required this. id_Furniture,required this. id_Color,}):super(id:id,  id_Furniture: id_Furniture, id_Color: id_Color,);
 
 Map<String,dynamic> toMap(){
-   return{'id':id,' id_Furniture': id_Furniture,' id_Color': id_Color,};
+   return{' id_Furniture': id_Furniture,' id_Color': id_Color,};
 }
 
 factory FurnitureColor.toFromMap(Map<String,dynamic> json){

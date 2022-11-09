@@ -12,7 +12,7 @@ class Furniture extends FurnitureEntity{
 Furniture({required this.id, required this. weight,required this. material,required this. id_TypeFurniture,required this. id_Manufacturer,}):super(id:id,  weight: weight, material: material, id_TypeFurniture: id_TypeFurniture, id_Manufacturer: id_Manufacturer,);
 
 Map<String,dynamic> toMap(){
-   return{'id':id,' weight': weight,' material': material,' id_TypeFurniture': id_TypeFurniture,' id_Manufacturer': id_Manufacturer,};
+   return{' weight': weight,' material': material,' id_TypeFurniture': id_TypeFurniture,' id_Manufacturer': id_Manufacturer,};
 }
 
 factory Furniture.toFromMap(Map<String,dynamic> json){

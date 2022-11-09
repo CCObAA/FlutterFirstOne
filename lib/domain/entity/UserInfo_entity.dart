@@ -4,7 +4,13 @@ class UserInfoEntity{
    final String name;
    final String patronymic;
    final String email;
-   final int id_Users;
+   final idUser;
 
-UserInfoEntity({required this.id, required this. surname, required this. name, required this. patronymic, required this. email, required this. id_Users, });
+UserInfoEntity({
+  id =0,
+  required this.surname,
+  required this.name,
+  required this.patronymic,
+  required this.email,
+  required this.idUser});
 }
